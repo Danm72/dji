@@ -168,7 +168,8 @@ module DJI
 
       def publish_url
         # 'http://localhost:3000/orders'
-        'http://www.dronehome.io/dji_track/orders'
+        #'http://www.dronehome.io/dji_track/orders'
+        'https://dji-tracka.herokuapp.com/dji_track/orders'
       end
 
     end
